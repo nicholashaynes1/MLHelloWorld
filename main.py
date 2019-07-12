@@ -34,3 +34,11 @@ dataset = pandas.read_csv(url, names = names)
 # Some box and whisker plots
 # dataset.plot(kind='box', subplots = True, layout = (2,2), sharex=False, sharey = False)
 # plt.show()
+
+#Some histograms
+# dataset.hist()
+# plt.show()
+
+#scatter plots
+# scatter_matrix(dataset)
+# plt.show()
