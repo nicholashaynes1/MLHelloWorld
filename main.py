@@ -27,3 +27,10 @@ dataset = pandas.read_csv(url, names = names)
 
 # This lets me see the data directly, again it is commented out because it is only useful sometimes but since I am learning I would like to refer back to it.
 # print(dataset.head(20))
+
+#Some descriptions and more information
+# print(dataset.describe())
+
+# Some box and whisker plots
+# dataset.plot(kind='box', subplots = True, layout = (2,2), sharex=False, sharey = False)
+# plt.show()
