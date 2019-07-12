@@ -20,3 +20,10 @@ from sklearn.svm import SVC
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pandas.read_csv(url, names = names)
+
+
+# This gives an idea of how many instances(rows) and how many attributes (cols) the data contains, it is commented out because I don't need to know everytime I run this program
+# print(dataset.shape)
+
+# This lets me see the data directly, again it is commented out because it is only useful sometimes but since I am learning I would like to refer back to it.
+# print(dataset.head(20))
